@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="main.css" />
+
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Nunito:ital,wght@0,800;1,800&display=swap"
+      rel="stylesheet"
+    />
+
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Nunito:ital,wght@0,200;1,200&display=swap"
+      rel="stylesheet"
+    />
+
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Nunito:ital,wght@0,500;1,500&display=swap"
+      rel="stylesheet"
+    />
+    <title>Validação de E-mail e Senha</title>
+  </head>
+  <body>
+    <form autocomplete="off">
+      <div class="container">
+        <div class="title">
+          <h1>Faça seu login</h1>
+        </div>
+        <div class="inputs">
+          <div class="email input-single">
+            <input class="input" type="text" id="email" required />
+            <label for="email">E-mail: </label>
+            <small id="textEmail"></small>
+          </div>
+
+          <div class="password input-single">
+            <input class="input" type="password" id="password" required />
+            <label for="password">Senha:</label>
+            <small id="textPassword"></small>
+          </div>
+          <button type="submit">Entrar</button>
+        </div>
+
+        <small id="textForm"></small>
+      </div>
+    </form>
+  </body>
+  <script src="app.js"></script>
+</html>
